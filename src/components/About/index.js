@@ -10,8 +10,9 @@ export default function About() {
           <h1>I build free, ad-free tools.</h1>
           <p className="lede">
             I&apos;m Marcus Travis. By day I&apos;m a BIM Manager in
-            construction, after starting out as a pipefitter and orbital
-            welder. On evenings and weekends I build fast, useful websites
+            construction, after starting out as a pipefitter helper, then
+            working as a journeyman pipefitter and certified orbital welder.
+            On evenings and weekends I build fast, useful websites
             with no annoying ads. The tools below are free to use.
           </p>
           <p className="credential">

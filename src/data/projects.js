@@ -5,13 +5,13 @@ const projects = [
     name: "Power Outage Map",
     url: "https://blackoutsmap.com",
     description:
-      "A free, ad-free live map of major power outages and blackouts worldwide, with US outage counts refreshed every 30 minutes.",
+      "A free, ad-free live map of major power outages and blackouts worldwide, with US outage counts refreshed about every 30 minutes and worldwide events updated several times a day.",
   },
   {
     name: "Ammo Reference Library",
     url: "https://ammochart.net/",
     description:
-      "Free, ad-free charts for 290+ cartridges, rifles, scopes, thermals and more, checked against manufacturer data every month.",
+      "Free, ad-free charts and 108 cartridge profiles covering ammo, rifles, scopes, thermals and more, checked against manufacturer and SAAMI data every month.",
   },
   {
     name: "Date Calculator",
@@ -23,7 +23,7 @@ const projects = [
     name: "Cups & Quarts",
     url: "https://cupsnquarts.pages.dev",
     description:
-      "Free, ad-free cooking converter: cups to grams for 58 ingredients (USDA data), plus unit, oven temperature, and pan size conversions.",
+      "Free, ad-free cooking converter: cups to grams for 79 ingredients (USDA data), plus unit, oven temperature, and pan size conversions.",
   },
   {
     name: "Tire Size Tool",
@@ -35,7 +35,7 @@ const projects = [
     name: "BIM Reference Library",
     url: "https://bimchart.net",
     description:
-      "A free, ad-free guide to BIM software (modeling, Revit add-ins, coordination and clash, spooling and fabrication, visualization) with cited popularity ratings.",
+      "A free, ad-free reference for BIM software and reality-capture gear (modeling, Revit add-ins, coordination, spooling, visualization, laser scanners, and drones) with side-by-side comparison charts and cited popularity and cost ratings.",
   },
 ];
 
