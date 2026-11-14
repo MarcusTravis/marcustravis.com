@@ -5,7 +5,7 @@ const projects = [
     name: "Power Outage Map",
     url: "https://blackoutsmap.com",
     description:
-      "A free, ad-free live map of major power outages and blackouts worldwide, with US outage counts refreshed about every 30 minutes and worldwide events updated several times a day.",
+      "A free, ad-free live map of major power outages and blackouts worldwide, with US outage counts refreshed hourly and worldwide events updated several times a day.",
   },
   {
     name: "Ammo Reference Library",
