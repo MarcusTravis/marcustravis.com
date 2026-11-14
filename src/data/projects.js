@@ -37,6 +37,12 @@ const projects = [
     description:
       "A free, ad-free reference for BIM software and reality-capture gear (modeling, Revit add-ins, coordination, spooling, visualization, laser scanners, and drones) with side-by-side comparison charts and cited popularity and cost ratings.",
   },
+  {
+    name: "AI Reference Library",
+    url: "https://aitoolchart.net",
+    description:
+      "A free, ad-free chart of 100+ AI tools (chatbots, image, video, voice, music, coding, transcription, search, agents, and 3D) with cited popularity and cost ratings.",
+  },
 ];
 
 export default projects;
