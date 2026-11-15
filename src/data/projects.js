@@ -43,6 +43,12 @@ const projects = [
     description:
       "A free, ad-free chart of 100+ AI tools (chatbots, image, video, voice, music, coding, transcription, search, agents, and 3D) with cited popularity and cost ratings.",
   },
+  {
+    name: "ThinkyBuildy",
+    url: "https://thinkybuildy.com",
+    description:
+      "The home of my free, ad-free web tools, built with a small crew of AI agents.",
+  },
 ];
 
 export default projects;
