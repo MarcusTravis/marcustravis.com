@@ -55,7 +55,6 @@ const projects = [
     description:
       "A free, ad-free, cross-brand reference of 308 residential and light-ag well pumps, pressure tanks, and controls, with filterable specs, sourced prices, a side-by-side compare tool, and a sizing guide.",
   },
-
 ];
 
 export default projects;
