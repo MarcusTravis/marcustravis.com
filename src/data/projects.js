@@ -11,7 +11,7 @@ const projects = [
     name: "Ammo Reference Library",
     url: "https://ammochart.net/",
     description:
-      "Free, ad-free charts and 108 cartridge profiles covering ammo, rifles, scopes, thermals and more, checked against manufacturer and SAAMI data every month.",
+      "Free, ad-free reference with 17 charts and 108 cartridge profiles covering ammo, rifles, scopes, thermals and more, checked against manufacturer and SAAMI data every month.",
   },
   {
     name: "Date Calculator",
