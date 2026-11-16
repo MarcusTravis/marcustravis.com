@@ -49,6 +49,13 @@ const projects = [
     description:
       "The home of my free, ad-free web tools, built with a small crew of AI agents.",
   },
+  {
+    name: "Well Pump Reference Library",
+    url: "https://wellpumpchart.pages.dev",
+    description:
+      "A free, ad-free, cross-brand reference of 308 residential and light-ag well pumps, pressure tanks, and controls, with filterable specs, sourced prices, a side-by-side compare tool, and a sizing guide.",
+  },
+
 ];
 
 export default projects;
