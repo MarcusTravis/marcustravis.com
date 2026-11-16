@@ -55,6 +55,12 @@ const projects = [
     description:
       "A free, ad-free, cross-brand reference of 308 residential and light-ag well pumps, pressure tanks, and controls, with filterable specs, sourced prices, a side-by-side compare tool, and a sizing guide.",
   },
+  {
+    name: "Safety Tool Chart",
+    url: "https://safetytoolchart.pages.dev",
+    description:
+      "A free, ad-free, cross-brand fall protection gear reference with compact comparison charts for harnesses, lanyards, SRLs, anchors, connectors, lifelines and rescue gear, plus a compare tool and a plain-words OSHA/ANSI basics page.",
+  },
 ];
 
 export default projects;
