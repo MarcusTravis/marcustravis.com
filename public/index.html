@@ -5,13 +5,19 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#0c0d10" />
+    <title>Marcus Travis — BIM Manager &amp; Builder of Free Web Tools</title>
     <meta
       name="description"
-      content="BIM Manager by day, Marcus Travis builds fast, free, ad-free web tools on his own time."
+      content="Marcus Travis is a BIM Manager by day who builds free, ad-free web tools on evenings and weekends: an outage map, reference charts, and handy calculators."
     />
+    <meta name="author" content="Marcus Travis" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
     <link rel="canonical" href="https://marcustravis.com/" />
+    <link rel="alternate" type="text/markdown" title="llms.txt" href="https://marcustravis.com/llms.txt" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Marcus Travis — BIM Manager &amp; Web Developer" />
+    <meta property="og:site_name" content="Marcus Travis" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="Marcus Travis — BIM Manager &amp; Builder of Free Web Tools" />
     <meta
       property="og:description"
       content="BIM Manager by day, Marcus Travis builds fast, free, ad-free web tools on his own time."
@@ -26,12 +32,16 @@
       content="Marcus Travis — BIM Manager by day · web developer off the clock. I build free, ad-free tools."
     />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Marcus Travis — BIM Manager &amp; Web Developer" />
+    <meta name="twitter:title" content="Marcus Travis — BIM Manager &amp; Builder of Free Web Tools" />
     <meta
       name="twitter:description"
       content="BIM Manager by day, Marcus Travis builds fast, free, ad-free web tools on his own time."
     />
     <meta name="twitter:image" content="https://marcustravis.com/og-image.png" />
+    <meta
+      name="twitter:image:alt"
+      content="Marcus Travis — BIM Manager by day · web developer off the clock. I build free, ad-free tools."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -40,10 +50,72 @@
     />
     <link rel="apple-touch-icon" sizes="192x192" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <title>Marcus Travis — BIM Manager &amp; Web Developer</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://marcustravis.com/#person",
+            "name": "Marcus Travis",
+            "jobTitle": "BIM Manager",
+            "description": "BIM Manager by day in construction who builds free, ad-free web tools on evenings and weekends. Former journeyman pipefitter and certified orbital welder.",
+            "url": "https://marcustravis.com/",
+            "image": "https://marcustravis.com/marcus-travis.jpg",
+            "email": "mailto:hello@marcustravis.com",
+            "knowsAbout": [
+              "Building Information Modeling (BIM)",
+              "Construction",
+              "Web development",
+              "React",
+              "JavaScript",
+              "Pipefitting",
+              "Orbital welding"
+            ],
+            "hasCredential": {
+              "@type": "EducationalOccupationalCredential",
+              "name": "Full Stack Web Development certificate",
+              "credentialCategory": "certificate",
+              "dateCreated": "2020",
+              "recognizedBy": {
+                "@type": "CollegeOrUniversity",
+                "name": "University of Arizona"
+              }
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/marcustravis",
+              "https://github.com/MarcusTravis"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://marcustravis.com/#website",
+            "url": "https://marcustravis.com/",
+            "name": "Marcus Travis",
+            "description": "Portfolio of free, ad-free web tools built by Marcus Travis, BIM Manager by day.",
+            "inLanguage": "en",
+            "author": { "@id": "https://marcustravis.com/#person" },
+            "publisher": { "@id": "https://marcustravis.com/#person" }
+          },
+          {
+            "@type": "ProfilePage",
+            "@id": "https://marcustravis.com/#profilepage",
+            "url": "https://marcustravis.com/",
+            "name": "Marcus Travis — BIM Manager & Builder of Free Web Tools",
+            "isPartOf": { "@id": "https://marcustravis.com/#website" },
+            "mainEntity": { "@id": "https://marcustravis.com/#person" },
+            "hasPart": { "@id": "https://marcustravis.com/#projects" }
+          }
+        ]
+      }
+    </script>
+    <!-- The projects ItemList JSON-LD and the static page markup are added at build time by scripts/prerender.js from src/data/projects.js. -->
   </head>
   <body>
     <div id="root"></div>
+    <noscript>
+      <p>Marcus Travis — BIM Manager by day who builds free, ad-free web tools. Enable JavaScript for the contact form.</p>
+    </noscript>
     <!-- Cloudflare Web Analytics -->
     <script
       defer

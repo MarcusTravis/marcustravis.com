@@ -1,0 +1,36 @@
+# Marcus Travis
+
+> Marcus Travis is a BIM Manager by day who builds free, ad-free web tools on evenings and weekends. This is his personal site and portfolio: https://marcustravis.com/
+
+## About
+
+- BIM Manager by day, in construction.
+- Started out as a pipefitter helper, then worked as a journeyman pipefitter and certified orbital welder.
+- Full Stack Web Development certificate, University of Arizona (2020).
+- On evenings and weekends he builds fast, useful websites with no annoying ads. Every tool below is free to use.
+- He takes on a small number of web projects on his own time, outside work hours.
+
+## Tool sites
+
+- [Power Outage Map](https://blackoutsmap.com): Live map of major power outages and blackouts worldwide, with US outage counts refreshed hourly.
+- [Ammo Reference Library](https://ammochart.net/): 17 charts and 108 cartridge profiles covering ammo, rifles, scopes, thermals and more, checked against manufacturer and SAAMI data every month.
+- [Date Calculator](https://dayspan.pages.dev): Days between dates, adding or subtracting days, exact age, business days around US federal holidays, and live countdowns.
+- [Cups & Quarts](https://cupsnquarts.pages.dev): Cooking converter with cups to grams for 79 ingredients (USDA data), plus unit, oven temperature, and pan size conversions.
+- [Tire Size Tool](https://tiresizing.pages.dev): Compare two tire sizes side by side (diameter, width, sidewall, revs per mile, speedometer error), with metric and inch-size conversions.
+- [BIM Reference Library](https://bimchart.net): BIM software and reality-capture gear (modeling, Revit add-ins, coordination, spooling, visualization, laser scanners, drones) with comparison charts and cited popularity and cost ratings.
+- [AI Reference Library](https://aitoolchart.net): Chart of 100+ AI tools (chatbots, image, video, voice, music, coding, transcription, search, agents, 3D) with cited popularity and cost ratings.
+- [ThinkyBuildy](https://thinkybuildy.com): The home of his free, ad-free web tools, built with a small crew of AI agents.
+- [Well Pump Reference Library](https://wellpumpchart.pages.dev): Cross-brand reference of 308 residential and light-ag well pumps, pressure tanks, and controls, with specs, sourced prices, a compare tool, and a sizing guide.
+- [Safety Tool Chart](https://safetytoolchart.pages.dev): Cross-brand fall protection gear reference with comparison charts for harnesses, lanyards, SRLs, anchors, connectors, lifelines and rescue gear, plus OSHA/ANSI basics.
+- [Prep Chart](https://bugoutchart.pages.dev): Emergency preparedness charts: bug-out bag comparisons, a bag builder, water and food calculators, backup power, gear charts, and scenario guides.
+- [AI Model Chart](https://aimodelchart.pages.dev/): Tracker of the most-used AI models and how smart they are, with OpenRouter popularity next to Epoch ECI and LMArena scores, updated daily.
+
+## Links
+
+- Website: https://marcustravis.com/
+- GitHub: https://github.com/MarcusTravis
+- LinkedIn: https://www.linkedin.com/in/marcustravis
+
+## Work with me
+
+Use the contact form at https://marcustravis.com/#hire or email hello@marcustravis.com.

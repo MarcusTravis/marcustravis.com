@@ -4,12 +4,20 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(
+const rootElement = document.getElementById('root');
+const app = (
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  </React.StrictMode>
 );
+
+// build/index.html ships prerendered markup (scripts/prerender.js) so crawlers
+// see real content; hydrate it when present, otherwise render from scratch.
+if (rootElement.hasChildNodes()) {
+  ReactDOM.hydrate(app, rootElement);
+} else {
+  ReactDOM.render(app, rootElement);
+}
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

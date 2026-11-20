@@ -8,7 +8,7 @@ export default function Navbar() {
         Skip to content
       </a>
       <nav className="wrap nav" aria-label="Primary">
-        <a className="brand" href="#top">
+        <a className="brand" href="#top" aria-label="Marcus Travis, back to top">
           <img src={logo} alt="" />
           <span>Marcus Travis</span>
         </a>
