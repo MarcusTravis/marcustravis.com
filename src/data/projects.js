@@ -69,9 +69,9 @@ const projects = [
   },
   {
     name: "AI Model Chart",
-    url: "https://aimodelchart.pages.dev",
+    url: "https://aimodelchart.pages.dev/",
     description:
-      "A free, ad-free, single-page tracker of the most-used AI models and how smart they are, with popularity from OpenRouter, Epoch AI ECI scores, and LMArena preference ratings refreshed daily.",
+      "Free, ad-free tracker of the most-used AI models and how smart they are, with OpenRouter popularity next to Epoch ECI and LMArena scores, updated daily.",
   },
 ];
 
