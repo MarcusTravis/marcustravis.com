@@ -61,6 +61,18 @@ const projects = [
     description:
       "A free, ad-free, cross-brand fall protection gear reference with compact comparison charts for harnesses, lanyards, SRLs, anchors, connectors, lifelines and rescue gear, plus a compare tool and a plain-words OSHA/ANSI basics page.",
   },
+  {
+    name: "Prep Chart",
+    url: "https://bugoutchart.pages.dev",
+    description:
+      "Free, ad-free emergency preparedness charts — bug-out bag comparisons, a bag builder, water and food calculators, backup power, gear charts, and scenario guides.",
+  },
+  {
+    name: "AI Model Chart",
+    url: "https://aimodelchart.pages.dev",
+    description:
+      "A free, ad-free, single-page tracker of the most-used AI models and how smart they are, with popularity from OpenRouter, Epoch AI ECI scores, and LMArena preference ratings refreshed daily.",
+  },
 ];
 
 export default projects;
