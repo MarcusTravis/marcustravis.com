@@ -297,6 +297,56 @@ a.project-card:hover {
   color: var(--accent);
 }
 
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+}
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  background: var(--bg-elev);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.45rem 1.5rem 1.3rem;
+  min-height: 100%;
+}
+
+.service-card h3 {
+  font-size: 1.35rem;
+}
+
+.service-card .service-for,
+.service-card li {
+  margin: 0;
+  color: var(--muted);
+}
+
+.service-includes-label {
+  margin: 0.25rem 0 0;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text);
+}
+
+.service-card ul {
+  margin: 0 0 0.4rem;
+  padding-left: 1.15rem;
+  display: grid;
+  gap: 0.45rem;
+  flex: 1;
+}
+
+.service-card .visit {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
 .hire-grid {
   display: grid;
   grid-template-columns: 0.9fr 1.1fr;
@@ -399,7 +449,8 @@ a.project-card:hover {
 
   .hero-grid,
   .hire-grid,
-  .project-grid {
+  .project-grid,
+  .services-grid {
     grid-template-columns: 1fr;
   }
 

@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../Navbar";
 import About from "../About";
 import Portfolio from "../Portfolio";
+import Services from "../Services";
 import Contact from "../Contact";
 import Footer from "../Footer";
 
@@ -12,6 +13,7 @@ export default function Main() {
       <main id="main">
         <About />
         <Portfolio />
+        <Services />
         <Contact />
       </main>
       <Footer />

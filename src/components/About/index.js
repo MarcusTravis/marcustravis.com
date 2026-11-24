@@ -13,7 +13,8 @@ export default function About() {
             construction, after starting out as a pipefitter helper, then
             working as a journeyman pipefitter and certified orbital welder.
             On evenings and weekends I build fast, useful websites
-            with no annoying ads. The tools below are free to use.
+            with no annoying ads. The tools below are free to use. I also
+            set up practical AI for small businesses.
           </p>
           <p className="credential">
             Full Stack Web Development certificate, University of Arizona
@@ -22,6 +23,9 @@ export default function About() {
           <div className="actions">
             <a className="btn btn-primary" href="#hire">
               Work with me
+            </a>
+            <a className="btn btn-ghost" href="#services">
+              AI setup
             </a>
             <a className="btn btn-ghost" href="#projects">
               See my tools

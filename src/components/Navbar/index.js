@@ -20,6 +20,9 @@ export default function Navbar() {
             <a href="#projects">Projects</a>
           </li>
           <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
             <a className="hire-link" href="#hire">
               Contact
             </a>

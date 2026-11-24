@@ -1,6 +1,6 @@
 # Marcus Travis
 
-> Marcus Travis is a BIM Manager by day who builds free, ad-free web tools on evenings and weekends. This is his personal site and portfolio: https://marcustravis.com/
+> Marcus Travis is a BIM Manager by day who builds free, ad-free web tools on evenings and weekends, and sets up practical AI for small businesses. This is his personal site and portfolio: https://marcustravis.com/
 
 ## About
 
@@ -8,6 +8,7 @@
 - Started out as a pipefitter helper, then worked as a journeyman pipefitter and certified orbital welder.
 - Full Stack Web Development certificate, University of Arizona (2020).
 - On evenings and weekends he builds fast, useful websites with no annoying ads. Every tool below is free to use.
+- He also sets up practical AI for small businesses.
 - He takes on a small number of web projects on his own time, outside work hours.
 
 ## Tool sites
@@ -30,6 +31,14 @@
 - Website: https://marcustravis.com/
 - GitHub: https://github.com/MarcusTravis
 - LinkedIn: https://www.linkedin.com/in/marcustravis
+
+## AI setup for small businesses
+
+On evenings and weekends he takes on a small number of practical AI setup projects. Details are at https://marcustravis.com/#services.
+
+- AI-powered website and contact intake: a simple, fast site with a contact or intake form, spam protection, and optional AI help drafting a first reply.
+- Chatbot and FAQ assistant: an assistant trained on the business's FAQs, services, and policies, with clear limits and a handoff to a person.
+- Workflow automation: a repeating process connected in Zapier or n8n, on the client's own accounts, with a person in the loop for customer-facing messages until they are comfortable.
 
 ## Work with me
 

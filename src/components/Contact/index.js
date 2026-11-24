@@ -96,7 +96,9 @@ export default function Contact() {
           <h2>Work with me</h2>
           <p>
             I take on a small number of web projects on my own time, outside
-            work hours. Email me, use the form, or connect on LinkedIn.
+            work hours. That includes a new site with contact intake, a
+            chatbot or FAQ assistant, or workflow automation. Email me, use
+            the form, or connect on LinkedIn.
           </p>
           <ul className="contact-list">
             <li>
@@ -139,7 +141,7 @@ export default function Contact() {
             <textarea
               name="message"
               required
-              placeholder="Tell me about the project and how to reach you."
+              placeholder="Tell me about the website or AI setup you need, and how to reach you."
             />
           </label>
           <div className="turnstile" ref={widgetRef} />
