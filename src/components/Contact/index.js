@@ -7,43 +7,54 @@ export default function Contact() {
   const [status, setStatus] = useState("");
   const widgetRef = useRef(null);
   const widgetId = useRef(null);
+  const cancelledRef = useRef(false);
+  const loadStartedRef = useRef(false);
 
   useEffect(() => {
-    let cancelled = false;
-
-    function renderWidget() {
-      if (cancelled || !window.turnstile || !widgetRef.current) return;
-      if (widgetId.current != null) return;
-      widgetId.current = window.turnstile.render(widgetRef.current, {
-        sitekey: TURNSTILE_SITE_KEY,
-        theme: "dark",
-      });
-    }
-
-    if (window.turnstile) {
-      renderWidget();
-    } else {
-      const existing = document.querySelector("script[data-turnstile]");
-      if (existing) {
-        existing.addEventListener("load", renderWidget);
-      } else {
-        const script = document.createElement("script");
-        script.src = "https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit";
-        script.async = true;
-        script.dataset.turnstile = "true";
-        script.onload = renderWidget;
-        document.body.appendChild(script);
-      }
-    }
-
+    cancelledRef.current = false;
     return () => {
-      cancelled = true;
+      cancelledRef.current = true;
       if (window.turnstile && widgetId.current != null) {
         window.turnstile.remove(widgetId.current);
         widgetId.current = null;
       }
     };
   }, []);
+
+  function renderWidget() {
+    if (cancelledRef.current || !window.turnstile || !widgetRef.current) return;
+    if (widgetId.current != null) return;
+    widgetId.current = window.turnstile.render(widgetRef.current, {
+      sitekey: TURNSTILE_SITE_KEY,
+      theme: "dark",
+    });
+  }
+
+  function loadTurnstile() {
+    if (loadStartedRef.current) {
+      renderWidget();
+      return;
+    }
+    loadStartedRef.current = true;
+
+    if (window.turnstile) {
+      renderWidget();
+      return;
+    }
+
+    const existing = document.querySelector("script[data-turnstile]");
+    if (existing) {
+      existing.addEventListener("load", renderWidget);
+      return;
+    }
+
+    const script = document.createElement("script");
+    script.src = "https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit";
+    script.async = true;
+    script.dataset.turnstile = "true";
+    script.onload = renderWidget;
+    document.body.appendChild(script);
+  }
 
   function resetTurnstile() {
     if (window.turnstile && widgetId.current != null) {
@@ -60,6 +71,12 @@ export default function Contact() {
       (window.turnstile && widgetId.current != null
         ? window.turnstile.getResponse(widgetId.current)
         : "");
+
+    if (!token) {
+      loadTurnstile();
+      setStatus("NEED_CHECK");
+      return;
+    }
 
     setStatus("SENDING");
 
@@ -127,7 +144,13 @@ export default function Contact() {
             </li>
           </ul>
         </div>
-        <form className="form" onSubmit={handleSubmit} method="POST">
+        <form
+          className="form"
+          onSubmit={handleSubmit}
+          onFocus={loadTurnstile}
+          onPointerDown={loadTurnstile}
+          method="POST"
+        >
           <label>
             Name
             <input name="name" type="text" required autoComplete="name" />
@@ -153,6 +176,11 @@ export default function Contact() {
             <button className="btn btn-primary" type="submit" disabled={status === "SENDING"}>
               {status === "SENDING" ? "Sending…" : "Send message"}
             </button>
+          )}
+          {status === "NEED_CHECK" && (
+            <p className="form-status error">
+              Please complete the check below, then send again.
+            </p>
           )}
           {status === "ERROR" && (
             <p className="form-status error">

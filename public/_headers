@@ -10,3 +10,11 @@
 
 /sitemap.xml
   Cache-Control: public, max-age=3600
+
+/fonts/*.woff2
+  Content-Type: font/woff2
+  Cache-Control: public, max-age=31536000
+
+/fonts/fonts.css
+  Content-Type: text/css; charset=utf-8
+  Cache-Control: public, max-age=86400
